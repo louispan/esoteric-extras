@@ -1,4 +1,4 @@
-module Data.Maybe.Esoteric where
+module Data.Maybe.Extras where
 
 -- | Eg. keepMaybes :: [(a, Maybe b)] -> [(a, b)]
 -- Create a [(a, b)] with only the Just values in a list of (a, Maybe b)
