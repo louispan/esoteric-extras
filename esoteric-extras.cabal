@@ -16,7 +16,8 @@ tested-with:         GHC == 7.10.3, GHC == 8.0.1
 
 library
   hs-source-dirs:      src
-  exposed-modules:     Data.Foldable.Esoteric
+  exposed-modules:     Control.Arrow.Esoteric
+                       Data.Foldable.Esoteric
                        Data.Maybe.Esoteric
                        Data.SKey
   build-depends:       base >= 4.7 && < 5
